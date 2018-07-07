@@ -8,6 +8,7 @@ def dfs(v):
         x = adj[v][i]
         dfs(x)
 
+
 def bfs(v):
     queue_list = list()
     queue_list.append(v)
@@ -37,7 +38,7 @@ adj = [list() for _ in range(n+1)]
 check = [False for _ in range(n+1)]
 check2 = [False for _ in range(n+1)]
 
-
+{}
 for i in range(1, m+1):
     x, y = input().split()
     x = int(x)
@@ -45,5 +46,5 @@ for i in range(1, m+1):
     adj[x].append(y)
     adj[y].append(x)
 
-# dfs(v=v)
 bfs(v=v)
+# dfs(v=v)

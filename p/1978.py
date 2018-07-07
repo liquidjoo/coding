@@ -12,7 +12,6 @@ for i in range(0, n):
     if count == 2:
         result += 1
 
-
 print(result)
 
 
