@@ -84,10 +84,9 @@ for x in raw_data:
                     w = stack_data.pop(top - 1)
                     stack_data.append(int(q) + int(w))
 
-
         else:
             continue
-        # print(stack_data)
+
 
 if len(stack_data) == 1:
     print(stack_data.pop())
